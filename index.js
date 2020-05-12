@@ -9,7 +9,7 @@ const { MONGODB } = require('./config.js'); // database connection
 const pubsub = new PubSub();
 
 // port Number
-const PORT = process.env.port || 5000;
+const PORT = process.env.PORT || 5000;
 
 // server instance
 const server = new ApolloServer({
